@@ -10,10 +10,50 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 100;
+	position: relative;
+}
+
+.hero-box-container {
+	display: flex;
+	width: 60%;
+	margin: 0 auto;
 }
 
 .hero-box {
 	color: rgb(90, 211, 9);
-	background-color: rgba(0, 0, 0, 0.425);
-	width: 30%;
+	background-color: rgba(0, 0, 0, 0.253);
+	width: 60%;
+	position: relative;
+	padding: 1em 2em;
+	margin-top: 15%;
+	border-radius: 2px;
+}
+
+.hero-btn {
+	color: #000;
+	display: inline-block;
+	padding: 8px 16px;
+	margin: 4px 8px;
+	background-color: #3fe43f;
+	border-radius: 2px;
+	font-weight: 700;
+	border: 1px solid #3fe43f;
+	transition: all 0.3s ease-in-out;
+
+	&:hover {
+		background-color: darken($color: #3fe43f, $amount: 10%);
+	}
+
+	&-primary {
+		background-color: rgba(255, 255, 255, 0);
+		border: 1px solid #3fe43f;
+		color: #fff;
+		margin-left: 0;
+	}
+
+	&-secondary:hover {
+		background-color: darken($color: #3fe43f, $amount: 20%);
+		border: 1px solid darken($color: #3fe43f, $amount: 20%);
+		color: #fff;
+	}
 }
