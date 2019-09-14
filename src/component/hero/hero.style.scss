@@ -1,8 +1,8 @@
 .hero-container {
 	background-image: linear-gradient(
-			90deg,
-			rgba(97, 6, 6, 0.719),
-			rgba(22, 22, 22, 0.596)
+			180deg,
+			rgba(63, 21, 21, 0.39) 68%,
+			rgb(0, 0, 0)
 		),
 		url(../../assets/heroImg.jpg);
 	height: 90vh;
@@ -21,16 +21,27 @@
 
 .hero-box {
 	color: rgb(90, 211, 9);
-	background-color: rgba(0, 0, 0, 0.253);
+	background-color: rgba(0, 0, 0, 0.322);
 	width: 60%;
 	position: relative;
 	padding: 1em 2em;
 	margin-top: 10%;
 	border-radius: 2px;
+	z-index: 2;
 
 	h1 {
 		font-size: 3.5rem;
 		margin: 1.5rem 1rem;
+		font-weight: 700;
+	}
+
+	p {
+		color: #fff;
+		font-weight: 400;
+	}
+
+	span {
+		color: #3fe43f;
 	}
 }
 
