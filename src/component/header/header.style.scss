@@ -5,6 +5,7 @@
 	align-items: center;
 	background: #3f1515;
 	border-bottom: 1px solid #381313;
+	border-top: 1px solid #381313;
 }
 
 .header-links {
@@ -21,8 +22,8 @@
 	display: inline-block;
 	margin: 0px 15px;
 	border-bottom: 1px solid rgb(63, 21, 21);
-	padding-bottom: 5px;
 	transition: border-bottom 0.3s ease-in-out;
+	padding: 5px 0px;
 
 	&:hover {
 		color: #fff;
