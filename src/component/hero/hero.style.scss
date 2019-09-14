@@ -1,7 +1,7 @@
 .hero-container {
 	background-image: linear-gradient(
 			180deg,
-			rgba(63, 21, 21, 0.39) 68%,
+			rgba(63, 21, 21, 0.322) 68%,
 			rgb(0, 0, 0)
 		),
 		url(../../assets/heroImg.jpg);
@@ -15,13 +15,13 @@
 
 .hero-box-container {
 	display: flex;
-	width: 60%;
+	width: 65%;
 	margin: 0 auto;
 }
 
 .hero-box {
 	color: rgb(90, 211, 9);
-	background-color: rgba(0, 0, 0, 0.322);
+	background-color: rgba(0, 0, 0, 0.356);
 	width: 60%;
 	position: relative;
 	padding: 1em 2em;
@@ -58,6 +58,7 @@
 
 	&:hover {
 		background-color: darken($color: #3fe43f, $amount: 10%);
+		cursor: pointer;
 	}
 
 	&-primary {

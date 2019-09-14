@@ -9,7 +9,11 @@ const Hero = () => {
 					<h1>Get Gear.</h1>
 					<h1>Check Stats.</h1>
 					<h1>Train.</h1>
-					<p>Welcome to the #1 Online Place for all things tennis</p>
+					<p>
+						Welcome to <span>Red Rock Tennis Co</span>. The #1 Online Place for
+						all things tennis
+					</p>
+
 					<p>
 						Check upcoming matches or snag some new shoes.{" "}
 						<span>One Stop Shop!</span>
