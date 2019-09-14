@@ -1,0 +1,13 @@
+.hero-container {
+	background-image: linear-gradient(
+			90deg,
+			rgba(97, 6, 6, 0.719),
+			rgba(22, 22, 22, 0.596)
+		),
+		url(../../assets/heroImg.jpg);
+	height: 90vh;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100;
+}
