@@ -59,6 +59,7 @@
 	&:hover {
 		background-color: darken($color: #3fe43f, $amount: 10%);
 		cursor: pointer;
+		transform: translateY(-0.1em);
 	}
 
 	&-primary {

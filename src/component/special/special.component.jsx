@@ -5,7 +5,7 @@ import SpecialPhoto from "../../assets/special.jpg";
 const Special = () => {
 	return (
 		<div className='container'>
-			<h2>Be Stronger Than Your Excuses.</h2>
+			<h2 data-aos='fade-up'>Be Stronger Than Your Excuses.</h2>
 			<div className='special-section'>
 				<div className='special-item'>
 					<div className='special-photo special-bg'>
@@ -13,9 +13,17 @@ const Special = () => {
 					</div>
 				</div>
 				<div className='special-item'>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis
-					quia quis labore blanditiis ex porro consequatur, omnis aut quod
-					illum!
+					We carry the best brands in the industry. Wilson, Babolat, Head. You
+					name it, We got it!
+					<div className='brand-container'>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<div className='brand-container'>
+						<div></div>
+						<div></div>
+					</div>
 				</div>
 			</div>
 		</div>
