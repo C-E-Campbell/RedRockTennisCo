@@ -1,6 +1,10 @@
 import React from "react";
 import "./special.style.scss";
 import SpecialPhoto from "../../assets/special.jpg";
+import SpecialPhoto1 from "../../assets/wilson-logo.png";
+
+import SpecialPhoto4 from "../../assets/prince-logo.png";
+import SpecialPhoto5 from "../../assets/yonex-logo.png";
 
 const Special = () => {
 	return (
@@ -16,13 +20,43 @@ const Special = () => {
 					We carry the best brands in the industry. Wilson, Babolat, Head. You
 					name it, We got it!
 					<div className='brand-container'>
-						<div></div>
-						<div></div>
-						<div></div>
+						<div>
+							<img
+								src={SpecialPhoto4}
+								alt='babolat logo'
+								className='brand-img'
+							/>
+						</div>
+						<div>
+							<img
+								src={SpecialPhoto5}
+								alt='babolat logo'
+								className='brand-img'
+							/>
+						</div>
+						<div>
+							<img
+								src={SpecialPhoto5}
+								alt='babolat logo'
+								className='brand-img'
+							/>
+						</div>
 					</div>
 					<div className='brand-container'>
-						<div></div>
-						<div></div>
+						<div>
+							<img
+								src={SpecialPhoto5}
+								alt='babolat logo'
+								className='brand-img'
+							/>
+						</div>
+						<div>
+							<img
+								src={SpecialPhoto5}
+								alt='babolat logo'
+								className='brand-img'
+							/>
+						</div>
 					</div>
 				</div>
 			</div>
