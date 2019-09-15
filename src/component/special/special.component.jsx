@@ -8,15 +8,14 @@ const Special = () => {
 			<h2>Be Stronger Than Your Excuses.</h2>
 			<div className='special-section'>
 				<div className='special-item'>
-					<p className='img-text'>Browse Racquets</p>
+					<div className='special-photo special-bg'>
+						<p className='img-text'>Browse Racquets</p>
+					</div>
 				</div>
 				<div className='special-item'>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit animi
-					tempore aut quia nobis quos optio accusantium quam dicta placeat sed,
-					minima unde fugiat aspernatur veniam odio libero repudiandae
-					recusandae sunt nostrum commodi alias? Corporis enim porro dolore
-					alias magni sunt sint pariatur facilis eos repellendus molestias iure,
-					dolores suscipit?
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis
+					quia quis labore blanditiis ex porro consequatur, omnis aut quod
+					illum!
 				</div>
 			</div>
 		</div>
