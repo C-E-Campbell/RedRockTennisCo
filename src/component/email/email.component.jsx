@@ -1,11 +1,14 @@
 import React from "react";
+import "./email.style.scss";
 const Email = () => {
 	return (
 		<div className='email'>
 			<div className='email-container'>
-				<p>Sign up and receive 15% OFF coupon!</p>
-				<form action='#'>
-					<input type='text' />
+				<p className='email-text'>
+					Sign up and receive <span>15% OFF</span> coupon!
+				</p>
+				<form action='#' className='form-box'>
+					<input type='email' placeholder='Email' />
 					<input type='submit' />
 				</form>
 			</div>
