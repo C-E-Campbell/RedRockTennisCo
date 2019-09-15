@@ -2,8 +2,12 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<div>
-			<h1>Footer Here</h1>
+		<div className='footer-section'>
+			<div className='footer-container'>
+				<div className='footer-item'>Customer Support</div>
+				<div className='footer-item'>About Red Rock Tennis Co</div>
+				<div className='footer-item'>Privacy and Terms</div>
+			</div>
 		</div>
 	);
 };
