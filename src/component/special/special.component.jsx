@@ -1,12 +1,14 @@
 import React from "react";
 import "./special.style.scss";
+import SpecialPhoto from "../../assets/special.jpg";
 
 const Special = () => {
 	return (
 		<div className='container'>
+			<h2>Be Stronger Than Your Excuses.</h2>
 			<div className='special-section'>
 				<div className='special-item'>
-					<img src='/src/assets/special.jpg' alt='tennis player' />
+					<p className='img-text'>Browse Racquets</p>
 				</div>
 				<div className='special-item'>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit animi

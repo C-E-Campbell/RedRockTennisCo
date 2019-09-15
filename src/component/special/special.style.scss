@@ -2,11 +2,19 @@
 	width: 100%;
 	background-color: black;
 	color: #fff;
+
+	h2 {
+		text-align: center;
+		padding-top: 120px;
+		margin: 0;
+		font-size: 3em;
+	}
 }
 
 .special-section {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	margin: 0 auto;
 	width: 70%;
 	text-align: center;
@@ -16,4 +24,31 @@
 
 .special-item {
 	width: 50%;
+	position: relative;
+
+	&::fi {
+		background-image: url(../../assets/special.jpg);
+		background: red;
+		height: 100%;
+	}
+}
+
+.special-photo {
+	background: url(../../assets/special.jpg);
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	position: relative;
+}
+.img-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: 900;
+	background-color: rgba(0, 0, 0, 0.623);
+	padding: 8px 16px;
+	transform: translate(-50%, -100%);
+	border-radius: 2px;
 }
