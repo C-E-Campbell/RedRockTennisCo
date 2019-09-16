@@ -6,16 +6,9 @@ const Header = () => {
 	return (
 		<div className='header'>
 			<div className='logo-container'>
-				<Link to='/'>
-					<div>
-						<img
-							className='logo-img'
-							src={Logo}
-							alt='Company Logo'
-							title='Home'
-						/>
-					</div>
-				</Link>
+				<img className='logo-img' src={Logo} alt='Company Logo' title='Home' />
+
+				<p>Red Rock Tennis Co.</p>
 			</div>
 			<ul className='header-links'>
 				<Link to='/statsandnews'>

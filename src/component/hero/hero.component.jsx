@@ -14,10 +14,7 @@ const Hero = () => {
 						all things tennis
 					</p>
 
-					<p>
-						Check upcoming matches or snag some new shoes.{" "}
-						<span>One Stop Shop!</span>
-					</p>
+					<p>Check upcoming matches or snag some new shoes. One Stop Shop!</p>
 					<a className='hero-btn hero-btn-primary'>Visit Store</a>
 					<a className='hero-btn hero-btn-secondary'>Check the Rankings</a>
 				</div>
