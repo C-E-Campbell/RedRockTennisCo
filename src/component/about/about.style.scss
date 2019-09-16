@@ -1,25 +1,43 @@
 .about-section {
-	padding: 2em 0px;
+	width: 100%;
+	background: linear-gradient(
+			360deg,
+			(rgb(49, 10, 10)),
+			rgba(10, 10, 10, 0.822)
+		),
+		url("../../assets/tennisbg.jpg");
+	background-size: cover;
+	background-position: top;
+}
+
+.about-container {
+	width: 70%;
+	padding: 1.5em 0px;
 	display: flex;
 	margin: 0 auto;
-	width: 70%;
 	justify-content: space-between;
 }
 
 .about-item {
+	color: #fff;
 	padding: 5px;
-	text-align: center;
-	border: 1px solid #333;
+	text-align: left;
+	border: 1px solid rgba(31, 31, 31, 0.219);
 	border-radius: 2px;
 	padding: 1em;
 	margin: 1em;
+	background-color: rgba(3, 3, 3, 0.315);
 	a {
 		text-decoration: none;
-		color: #333;
+		color: #d34f17;
 
 		&:hover {
-			color: #d34f17;
+			color: #f36122;
 		}
+	}
+
+	h2 {
+		font-family: "Crimson Pro", serif;
 	}
 }
 
@@ -28,6 +46,11 @@
 
 	h2 {
 		font-size: 2.5rem;
+	}
+
+	p {
+		font-weight: 400;
+		font-size: 1.2rem;
 	}
 }
 

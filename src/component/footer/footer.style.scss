@@ -1,0 +1,21 @@
+.footer-section {
+	background-color: #310a0a;
+	color: rgb(216, 214, 214);
+	width: 100%;
+	padding-top: 2em;
+	padding-bottom: 0.5em;
+}
+
+.footer-container {
+	display: flex;
+	width: 40%;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.footer-item {
+	font-size: 0.8rem;
+	&:hover {
+		color: #fff;
+	}
+}

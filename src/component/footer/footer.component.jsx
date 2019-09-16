@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./footer.style.scss";
 const Footer = () => {
 	return (
 		<div className='footer-section'>
@@ -8,6 +8,7 @@ const Footer = () => {
 				<div className='footer-item'>About Red Rock Tennis Co</div>
 				<div className='footer-item'>Privacy and Terms</div>
 			</div>
+			<div className='footer-container'></div>
 		</div>
 	);
 };
