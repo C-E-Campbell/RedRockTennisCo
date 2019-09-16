@@ -6,9 +6,9 @@ const About = () => {
 		<div className='about-section'>
 			<div className='about-container'>
 				<div className='about-item item-75'>
-					<h2>Get Ready for the Upcoming Tourney</h2>
+					<h2>Ready for the Upcoming Tourney?</h2>
 
-					<p>Who will take the womens chamionship at Wemberly?</p>
+					<p>Who will take the women's chamionship at Wemberly?</p>
 					<p>Barty? Pliskova? Svitolina?</p>
 					<a href='#'>
 						<em>Read more...</em>
