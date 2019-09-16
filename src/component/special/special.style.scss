@@ -17,7 +17,7 @@
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;
-	width: 60%;
+	width: 70%;
 	text-align: center;
 }
 
@@ -28,6 +28,7 @@
 
 	&-racquet {
 		background-image: url("../../assets/rakquet.jpg");
+		background-position: center;
 	}
 
 	&-men {
