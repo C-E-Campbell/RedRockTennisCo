@@ -2,8 +2,8 @@
 	width: 100%;
 	background: linear-gradient(
 			360deg,
-			(rgb(49, 10, 10)),
-			rgba(10, 10, 10, 0.822)
+			(rgb(29, 7, 7) 1%),
+			rgba(10, 10, 10, 0.884) 19%
 		),
 		url("../../assets/tennisbg.jpg");
 	background-size: cover;
@@ -12,7 +12,7 @@
 
 .about-container {
 	width: 70%;
-	padding: 1.5em 0px;
+	padding: 3.5em 0px;
 	display: flex;
 	margin: 0 auto;
 	justify-content: space-between;

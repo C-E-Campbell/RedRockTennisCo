@@ -3,7 +3,9 @@
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
-	background: #310a0a;
+	background: #361010;
+	position: fixed;
+	z-index: 999;
 }
 
 .header-links {
