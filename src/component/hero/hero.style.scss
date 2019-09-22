@@ -20,8 +20,8 @@
 }
 
 .hero-box {
-	color: rgb(90, 211, 9);
-	background-color: rgba(0, 0, 0, 0.356);
+	color: #63ec13;
+	background-color: rgba(0, 0, 0, 0.267);
 	width: 60%;
 	position: relative;
 	padding: 1em 2em;
@@ -41,7 +41,7 @@
 	}
 
 	span {
-		color: #3fe43f;
+		color: #63ec13;
 		font-family: "Special Elite", cursive;
 	}
 }
@@ -51,21 +51,20 @@
 	display: inline-block;
 	padding: 8px 16px;
 	margin: 8px 8px;
-	background-color: #3fe43f;
+	background-color: #63ec13;
 	border-radius: 2px;
 	font-weight: 700;
-	border: 1px solid #3fe43f;
+	border: 1px solid #63ec13;
 	transition: all 0.3s ease-in-out;
 
 	&:hover {
-		background-color: darken($color: #3fe43f, $amount: 10%);
+		background-color: darken($color: #63ec13, $amount: 5%);
 		cursor: pointer;
-		transform: translateY(-0.1em);
 	}
 
 	&-primary {
 		background-color: rgba(255, 255, 255, 0);
-		border: 1px solid #3fe43f;
+		border: 1px solid #63ec13;
 		color: #fff;
 		margin-left: 0;
 	}

@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.style.scss";
 import { Link } from "react-router-dom";
-import Logo from "./logo.png";
+import Logo from "./tennislogo.png";
 const Header = () => {
 	return (
 		<div className='header'>
